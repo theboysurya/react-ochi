@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className='w-full bg-[#cdea68] p-20 rounded-tl-3xl rounded-tr-3xl font-["Neue_Montreal"] '>
+    <div data-scroll data-scroll-speed="-.2" className='w-full bg-[#cdea68] p-20 rounded-tl-3xl rounded-tr-3xl font-["Neue_Montreal"] '>
         <h1 className="font-['Neue_Montreal'] text-[4vw] font leading-[5vw]">Ochi is a strategic partner for fast-growing tech businesses that need to raise funds, sell products, explain complex ideas, and hire great people.</h1>
         <div className='border-t-[1px] border-zinc-600 grid grid-cols-3 mt-[6vw] pt-[2vw]'>
             <div>What you can expect:</div>
@@ -31,7 +31,8 @@ function About() {
                     <div className='w-2 h-2 rounded-full bg-white'></div>
                 </button>
             </div>
-            <div className='w-1/2 h-[40vw] bg-red-500 rounded-2xl'>
+            <div className='w-1/2 h-[40vw] bg-red-500 rounded-2xl overflow-hidden'>
+                <img className="w-full h-full object-cover" src="https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-663x469.jpg" alt="" />
             </div>
         </div>
     </div>
