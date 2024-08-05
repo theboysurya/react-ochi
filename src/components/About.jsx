@@ -2,8 +2,8 @@ import React from 'react'
 
 function About() {
   return (
-    <div data-scroll data-scroll-speed="-.2" className='w-full bg-[#cdea68] p-20 rounded-tl-3xl rounded-tr-3xl font-["Neue_Montreal"] '>
-        <h1 className="font-['Neue_Montreal'] text-[4vw] font leading-[5vw]">Ochi is a strategic partner for fast-growing tech businesses that need to raise funds, sell products, explain complex ideas, and hire great people.</h1>
+    <div data-scroll data-scroll-speed="-.2" className='w-full bg-[#cdea68] p-20 rounded-tl-3xl rounded-tr-3xl font-Neue_Montreal '>
+        <h1 className="font-Neue_Montreal text-[4vw] font leading-[5vw]">Ochi is a strategic partner for fast-growing tech businesses that need to raise funds, sell products, explain complex ideas, and hire great people.</h1>
         <div className='border-t-[1px] border-zinc-600 grid grid-cols-3 mt-[6vw] pt-[2vw]'>
             <div>What you can expect:</div>
             <div className='flex flex-col gap-[3vw]'>

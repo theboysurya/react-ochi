@@ -14,7 +14,7 @@ function Featured() {
   };
 
   return (
-    <div className='w-full py-10 font-["Neue_Montreal"] '>
+    <div className='w-full py-10 font-Neue_Montreal '>
       <div className="w-full border-b-[1px] px-20 py-20 border-zinc-400">
         <h1 className="text-[3.6vw] leading-none">Featured projects</h1>
       </div>
@@ -28,7 +28,7 @@ function Featured() {
             onHoverStart={() => handleHover(0)}
             onHoverEnd={() => handleHoverEnd(0)}>
             <motion.div className="project-heading absolute left-[100%] top-[50%] -translate-x-[50%] -translate-y-[50%] z-[10]">
-              <h1 className='font-["Test_Founders_Grotesk_X"] flex overflow-hidden text-[6vw] leading-none uppercase font-bold text-[#cdea68]'>
+              <h1 className='font-Test_Founders_Grotesk_X flex overflow-hidden text-[6vw] leading-none uppercase font-bold text-[#cdea68]'>
                 {"FYDE".split("").map((item, index) => (
                   <motion.span
                     initial={{ y: "100%" }}
@@ -79,7 +79,7 @@ function Featured() {
             onHoverStart={() => handleHover(1)}
             onHoverEnd={() => handleHoverEnd(1)}>
             <motion.div className="project-heading absolute right-[100%] top-[50%] translate-x-[50%] -translate-y-[50%] z-[10]">
-              <h1 className='font-["Test_Founders_Grotesk_X"] flex overflow-hidden text-[6vw] leading-none uppercase font-bold text-[#cdea68]'>
+              <h1 className='font-Test_Founders_Grotesk_X flex overflow-hidden text-[6vw] leading-none uppercase font-bold text-[#cdea68]'>
                 {"VISE".split("").map((item, index) => (
                   <motion.span
                     initial={{ y: "100%" }}

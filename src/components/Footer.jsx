@@ -2,9 +2,9 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='w-full h-screen mt-20 px-20 pt-20 pb-10 flex font-["Neue_Montreal"]'>
+    <div className='w-full h-screen mt-20 px-20 pt-20 pb-10 flex font-Neue_Montreal'>
         <div className='w-1/2 h-full flex flex-col justify-between'>        
-            <div className=' font-["Test_Founders_Grotesk_X"] text-[9vw] uppercase leading-[6.5vw] text-[#212121]'>
+            <div className=' font-Test_Founders_Grotesk_X text-[9vw] uppercase leading-[6.5vw] text-[#212121]'>
             <h1>eye-</h1>
             <h1>opening</h1>
         </div>
@@ -19,7 +19,7 @@ function Footer() {
         </div>
         </div>
         <div className='w-1/2 h-full flex flex-col justify-between'>        
-        <div className=' font-["Test_Founders_Grotesk_X"] text-[9vw] uppercase leading-[6.5vw] text-[#212121]'>
+        <div className=' font-Test_Founders_Grotesk_X text-[9vw] uppercase leading-[6.5vw] text-[#212121]'>
             <h1>presentations</h1>
         </div>
             <div className='h-full flex items-center justify-between'>
